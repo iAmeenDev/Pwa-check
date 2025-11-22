@@ -1,0 +1,25 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Ameen Test App</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <h1>Ameen Test App</h1>
+  <p id="div">Ye dummy website sirf practice ke liye hai.</p>
+  <button>check</button>
+  <img src="./img_1.jpeg" />
+  <img src="./img_2.jpeg" />
+  <img src="./img_3.jpeg" />
+  <img src="./img_4.jpeg" />
+  <script src="app.js"></script>
+  <link rel="manifest" href="manifest.json">
+
+<script>
+if ("serviceWorker" in navigator) {
+  navigator.serviceWorker.register("service-worker.js");
+}
+</script>
+</body>
+</html>
